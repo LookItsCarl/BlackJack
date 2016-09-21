@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>BlackJack</title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css" >
+<script src="js/blackjack.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+<div class="bj_table">
+<img src="images/blackjack_table.png">
+</div>
+
+<div class="left_column">
+<h1 class="bet" id="bet">$0</h1>
+<button class="button chip1" onclick="bet_oneDollarChip()">$1</button>
+<button class="button chip10" onclick="bet_tenDollarChip()">$10</button>
+<button class="button chip100" onclick="bet_hundredDollarChip()">$100</button>
+<button class="button chip1000" onclick="bet_thousandDollarChip()">$1000</button>
+
+<div class="bet_btns">
+<button class="button control_btn place_bet">Place Bet</button>
+<button class="button control_btn clear_bet" onclick="clearBet()">Clear Bet</button>
+</div>
+</div>
+
+
+<div class="right_column">
+<div class="control_btns">
+<button class="button control_btn hit">Hit</button>
+<button class="button control_btn stand">Stand</button>
+</div>
+
+<div class="wallet">
+<img src="images/wallet.png">
+</div>
+
+<div class="cash">
+<h2 id="cash">$2000</h2>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
